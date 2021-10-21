@@ -1,5 +1,3 @@
-package com.company;
-
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.util.ArrayList;
@@ -71,7 +69,7 @@ public class Main {
     }
 
     public static void main(String[] args) throws FileNotFoundException {
-        File text = new File("src/test.txt");
+        File text = new File("test.txt");
         Scanner scanner = new Scanner(text);
         int sawMills;
         int caseNumber = 1;
